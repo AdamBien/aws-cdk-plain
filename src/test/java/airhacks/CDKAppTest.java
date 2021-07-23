@@ -20,12 +20,12 @@ public class CDKAppTest {
     @Test
     public void testStack() throws IOException {
         App app = new App();
-        CDKStack stack = new CDKStack(app, "test");
+        var stack = new CDKStack(app, "test");
 
         // synthesize the stack to a CloudFormation template
-        JsonNode actual = JSON.valueToTree(app.synth().getStackArtifact(stack.getArtifactId()).getTemplate());
+        var actual = JSON.valueToTree(app.synth().getStackArtifact(stack.getArtifactId()).getTemplate());
 
         // Update once resources have been added to the stack
-        assertThat(actual.get("Resources")).isNull();
+        assertThat(actual.get("Resources")).isNotEmpty();
     }
 }
