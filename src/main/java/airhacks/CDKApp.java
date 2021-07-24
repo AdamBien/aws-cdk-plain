@@ -9,7 +9,7 @@ import software.amazon.awscdk.Tags;
 
 public class CDKApp {
     public static void main(final String[] args) {
-        
+
             var app = new App();
             var appName = "aws-cdk-plain";
             Tags.of(app).add("project", "airhacks.live");
@@ -21,7 +21,7 @@ public class CDKApp {
                         .region(System.getenv("CDK_DEFAULT_REGION"))
                         .build();
         var stackProps = StackProps.builder().env(environment).build();
-        new CDKStack(app, "aws-cdk-plain", stackProps);
+        new CDKStack(app, appName, stackProps);
         app.synth();
     }
 }
