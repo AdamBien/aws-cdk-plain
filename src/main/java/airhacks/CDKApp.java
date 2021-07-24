@@ -18,8 +18,8 @@ public class CDKApp {
                         .account(System.getenv("CDK_DEFAULT_ACCOUNT"))
                         .region(System.getenv("CDK_DEFAULT_REGION"))
                         .build();
-        var stacksProps = StackProps.builder().env(environment).build();
-        new CDKStack(app, "aws-cdk-plain", stacksProps);
+        var stackProps = StackProps.builder().env(environment).build();
+        new CDKStack(app, "aws-cdk-plain", stackProps);
         app.synth();
     }
 }
