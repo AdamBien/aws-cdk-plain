@@ -1,7 +1,6 @@
 package airhacks;
 
 import software.amazon.awscdk.App;
-import software.amazon.awscdk.Environment;
 import software.amazon.awscdk.StackProps;
 import software.amazon.awscdk.Tags;
 
@@ -16,11 +15,7 @@ public class CDKApp {
             Tags.of(app).add("environment","workshops");
             Tags.of(app).add("application", appName);
 
-            var environment = Environment.builder()
-                              .build();
-                        
             var stackProps = StackProps.builder()
-                    .env(environment)
                     .build();
         
         new CDKStack(app, appName, stackProps);
