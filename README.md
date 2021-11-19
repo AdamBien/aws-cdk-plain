@@ -8,6 +8,7 @@ It is a [Maven](https://maven.apache.org/) based project, so you can open this p
 
 ## Installation
 
+0. For max convenience use the [`default` profile](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html)
 1. Install [AWS CDK CLI](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html)
 2. [`cdk boostrap --profile YOUR_AWS_PROFILE`](https://docs.aws.amazon.com/cdk/latest/guide/bootstrapping.html)
 
@@ -26,6 +27,12 @@ Enjoy!
 
 [![Infrastructure as Java Code (IaJC): Setting AWS System Manager Parameter](https://i.ytimg.com/vi/eTG7EV1ThqQ/mqdefault.jpg)](https://www.youtube.com/embed/eTG7EV1ThqQ?rel=0)
 
+## references
+
+Used in: 
+
+1. [Plain Lambda Template](https://github.com/AdamBien/aws-lambda-cdk-plain)
+2. [MicroProfile on Quarkus as Lambda Template](https://github.com/AdamBien/aws-quarkus-lambda-cdk-plain)
 
 
 See you at: [airhacks.live](https://airhacks.live)
