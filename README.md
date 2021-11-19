@@ -25,6 +25,8 @@ Enjoy!
 
 ## in action
 
+### Infrastructure as Java Code (IaJC): Setting AWS System Manager Parameter
+
 [![Infrastructure as Java Code (IaJC): Setting AWS System Manager Parameter](https://i.ytimg.com/vi/eTG7EV1ThqQ/mqdefault.jpg)](https://www.youtube.com/embed/eTG7EV1ThqQ?rel=0)
 
 ## references
