@@ -1,3 +1,3 @@
 #!/bin/sh
 set -e
-mvn clean package && cdk deploy
+mvn -DskipTests clean package && cdk deploy
