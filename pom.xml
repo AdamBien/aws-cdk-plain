@@ -29,7 +29,7 @@
         <dependency>
             <groupId>software.constructs</groupId>
             <artifactId>constructs</artifactId>
-            <version>3.3.138</version>
+            <version>3.3.161</version>
         </dependency>
 
         <dependency>
