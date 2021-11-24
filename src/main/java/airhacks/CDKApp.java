@@ -37,7 +37,7 @@ public class CDKApp {
 
             var stackProps = StackProps.builder()
                     .build();
-        
+            var configuration = Configuration.load();
         new CDKStack(app, appName, stackProps);
         app.synth();
     }
