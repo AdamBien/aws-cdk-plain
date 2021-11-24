@@ -31,6 +31,13 @@
             <artifactId>constructs</artifactId>
             <version>3.3.161</version>
         </dependency>
+        
+        <!-- optional: for convenient configuration with json -->
+        <dependency>
+            <groupId>org.eclipse</groupId>
+            <artifactId>yasson</artifactId>
+            <version>2.0.2</version>
+        </dependency>    
 
         <dependency>
           <groupId>org.junit.jupiter</groupId>
