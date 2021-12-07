@@ -6,9 +6,7 @@ import software.amazon.awscdk.StackProps;
 
 public class CDKStack extends Stack {
 
-    public CDKStack(final Construct scope, final String id, final StackProps props) {
+    public CDKStack(Construct scope, String id, StackProps props) {
         super(scope, id, props);
-
-        // The code that defines your stack goes here
     }
 }
