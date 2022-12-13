@@ -24,12 +24,12 @@
         <dependency>
             <groupId>software.amazon.awscdk</groupId>
             <artifactId>aws-cdk-lib</artifactId>
-            <version>2.53.0</version>
+            <version>2.54.0</version>
         </dependency>
         <dependency>
             <groupId>software.constructs</groupId>
             <artifactId>constructs</artifactId>
-            <version>3.4.174</version>
+            <version>3.4.182</version>
         </dependency>
         
         <!-- optional: for convenient configuration with json -->
@@ -38,17 +38,16 @@
             <artifactId>yasson</artifactId>
             <version>2.0.4</version>
         </dependency>    
-
         <dependency>
           <groupId>org.junit.jupiter</groupId>
           <artifactId>junit-jupiter-api</artifactId>
-          <version>5.8.2</version>
+          <version>5.9.1</version>
           <scope>test</scope>
         </dependency>
         <dependency>
           <groupId>org.junit.jupiter</groupId>
           <artifactId>junit-jupiter-engine</artifactId>
-          <version>5.8.2</version>
+          <version>5.9.1</version>
           <scope>test</scope>
         </dependency>
         <dependency>
