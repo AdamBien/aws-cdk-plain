@@ -24,12 +24,12 @@
         <dependency>
             <groupId>software.amazon.awscdk</groupId>
             <artifactId>aws-cdk-lib</artifactId>
-            <version>2.83.0</version>
+            <version>2.83.1</version>
         </dependency>
         <dependency>
             <groupId>software.constructs</groupId>
             <artifactId>constructs</artifactId>
-            <version>3.4.320</version>
+            <version>3.4.323</version>
         </dependency>
         
         <!-- optional: for convenient configuration with json -->
