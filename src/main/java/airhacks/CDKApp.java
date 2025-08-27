@@ -4,12 +4,12 @@ import software.amazon.awscdk.App;
 import software.amazon.awscdk.StackProps;
 import software.amazon.awscdk.Tags;
 
-public class CDKApp {
+public interface CDKApp {
+    String appName = "aws-cdk-plain";
 
-    public static void main(final String[] args) {
+    static void main(String... args) {
 
         var app = new App();
-        var appName = "aws-cdk-plain";
         Tags.of(app).add("project", "airhacks.live");
         Tags.of(app).add("environment", "workshops");
         Tags.of(app).add("application", appName);
