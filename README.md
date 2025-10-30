@@ -2,10 +2,11 @@
 
 Streamlined Maven-based AWS CDK project template.
 
-## Prerequisites
+## Setup
 
-1. Install [AWS CDK CLI](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html)
-2. [`cdk bootstrap  aws://[ACCOUNT_ID]/[REGION]`](https://docs.aws.amazon.com/cdk/latest/guide/bootstrapping.html)
+1. Replace `placeholder` package name with your application name
+2. Install [AWS CDK CLI](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html)
+3. [`cdk bootstrap  aws://[ACCOUNT_ID]/[REGION]`](https://docs.aws.amazon.com/cdk/latest/guide/bootstrapping.html)
 
 ## Commands
 
